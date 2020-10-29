@@ -77,7 +77,7 @@ plt.imshow(mask)
 # mask1[mask1.sum(axis=2) == 0] = 255
 # plt.imshow(mask1)
 
-# To define the colors of your wordcloud you can use the colors from an existing image or defina a pallet:
+# To define the colors of your wordcloud you can use the colors from an existing image or define a pallet:
 # Use color from an image:
 mask_color = np.array(Image.open(os.path.join(d, "imagecolors.png")))
 color_mask= mask_color.copy()
